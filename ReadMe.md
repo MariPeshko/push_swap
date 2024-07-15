@@ -28,11 +28,11 @@ ________________________________________________________________________________
 
 The program returns specific error codes for different types of errors. `echo $?` to display exit status.
 
-Error 1: No input provided.
-Error 2: Input contains only one argument and it is not a number.
-Error 3: Input consists of a mix of arguments and strings, e.g., `4 3 -200 "-66 0" 3`
-Error 4: Duplicate values in stack a.
-Error 5: Memory allocation failure.
+Error 1: No input provided.\
+Error 2: Input contains only one argument and it is not a number.\
+Error 3: Input consists of a mix of arguments and strings, e.g., `4 3 -200 "-66 0" 3`\
+Error 4: Duplicate values in stack a.\
+Error 5: Memory allocation failure.\
 Error 127: Invalid number (error during `atoi` conversion).
 
 The program returns 0 on success.
