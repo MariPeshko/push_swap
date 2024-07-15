@@ -1,10 +1,12 @@
 ### Push_Swap Project - School 42 Berlin (June 2024)
 
+#### Project Overview
+
 Hi! It is the project `"push_swap"` made by Maryna Peshko at school 42 Berlin in June 2024.
 
 Subject says: "This project will make you sort data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed you’ll have to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimized data sorting."
 
-The program does not return sorted stack, but a list of operations that have been made.
+**Note**: The program does not return a sorted stack but a list of operations that were performed.
 
 For my project, I chose Mechanical Turk algorithm, which is very efficient and well-explained in the article of A. Yigit Ogun (Hellibronn)
 https://medium.com/@ayogun/push-swap-c1f5d2d41e97
@@ -22,6 +24,7 @@ ________________________________________________________________________________
 __________________________________________________________________________________
 
 List of errors.
+
 $? command to display exit status.
 
 Error 1 in case there was no input.
