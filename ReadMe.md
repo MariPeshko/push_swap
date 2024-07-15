@@ -8,8 +8,9 @@ Subject says: "This project will make you sort data on a stack, with a limited s
 
 **Note**: The program does not return a sorted stack but a list of operations that were performed.
 
-For my project, I chose Mechanical Turk algorithm, which is very efficient and well-explained in the article of A. Yigit Ogun (Hellibronn)
-https://medium.com/@ayogun/push-swap-c1f5d2d41e97
+#### Algorithm Choice
+
+For my project, I chose Mechanical Turk algorithm, which is very efficient and well-explained in [the article of A. Yigit Ogun (Hellibronn)](https://medium.com/@ayogun/push-swap-c1f5d2d41e97)
 
 I use only two types of instructions - case of both rotations and case of both reverse rotations. Although I have to variations of these instruction - for sorting in descending order (stack b) and for sorting in ascending order (stack a).
 
