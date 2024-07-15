@@ -12,21 +12,21 @@ Subject says: "This project will make you sort data on a stack, with a limited s
 
 For my project, I chose Mechanical Turk algorithm, which is very efficient and well-explained in [the article of A. Yigit Ogun (Hellibronn)](https://medium.com/@ayogun/push-swap-c1f5d2d41e97)
 
-I use only two types of instructions - case of both rotations and case of both reverse rotations. Although I have to variations of these instruction - for sorting in descending order (stack b) and for sorting in ascending order (stack a).
+I use only two types of instructions - case of both rotations and case of both reverse rotations. These instructions have two variations each, for sorting in descending order (stack b) and for sorting in ascending order (stack a).
 
-#### The valid inputs:
-1) ./push_swap 5 4 3 2 1
-2) ./push_swap "5 4 3 2 1"
+#### Valid inputs
+1) `./push_swap 5 4 3 2 1`
+2) `./push_swap "5 4 3 2 1"`
 __________________________________________________________________________________
 
 #### To count the number of operations use this command:
 
-./push_swap 5 4 3 2 1 | wc -l 
+```./push_swap 5 4 3 2 1 | wc -l```
 __________________________________________________________________________________
 
-List of errors.
+#### List of errors.
 
-$? command to display exit status.
+The program returns specific error codes for different types of errors. `echo $?` to display exit status.
 
 Error 1 in case there was no input.
 Error 2 in case of input is only one argument and it contains not only digits.
